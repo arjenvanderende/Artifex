@@ -1,0 +1,156 @@
+#header
+{
+  background-image: url( ../images/Tweakers_Title.bmp );
+  width: 795;
+  height: 184;
+}
+
+#content
+{
+  width: 795;
+
+  background-color: #ffffff;
+  background-image: url( ../images/Tweakers_Background.bmp );
+
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: #726e62;
+}
+
+#menu_main,
+#menu_weblog,
+#menu_layout,
+#menu_search
+{
+  width: 224px;
+  float: left;
+  clear: both;
+
+  font-size: 10px;
+  background-image: url( ../images/Tweakers_MenuTitle1.bmp );
+  background-repeat: no-repeat;
+  background-color: #c6c1b4;
+}
+
+#menu_weblog,
+#menu_layout,
+#menu_search
+{
+  padding: 2px 0px 0px 0px;
+
+  background-image: url( ../images/Tweakers_MenuTitle2.bmp );
+}
+
+#menu_title
+{
+  padding: 0px 0px 0px 5px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#menu_item
+{
+	display: block;
+
+  width: 225px;
+  padding: 1px 0px 1px 5px;
+  margin: 2px 0px -1px 0px;
+
+  text-decoration: none;
+
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  border-color: #aba69a #726e62 #aba69a #aba69a;
+}
+
+#search_result
+{
+  width: 100%;
+  text-align: left;
+
+  font-size: x-small;
+  text-decoration: none;
+}
+
+#submit_form
+{
+  text-align: center;
+}
+
+#news,
+#weblog
+{
+  margin: 0px 15px 0px 240px;
+
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #000000;
+}
+
+#topic
+{
+  height: 100%;
+  font-size; x-small;
+  
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 5px 0px;
+
+  border-style: dotted;
+  border-width: 0px 0px 3px 0px;
+  border-color: #bfbfbf;
+}
+
+#topic_title
+{
+  width: 100%;
+  text-align: left;
+
+  font-size: medium;
+  font-weight: 800;
+  color: #ae0009;
+}
+
+#topic_subtitle
+{
+  width: 100%;
+  text-align: left;
+
+  color: #808080;
+  font-size: xx-small;
+}
+
+#topic_content
+{
+  text-align: justify;
+}
+
+#user_image_link
+{
+}
+
+#user_image
+{
+  filter: fliph;
+}
+
+#topic_text
+{
+  text-align: justify;
+}
+
+#footer
+{
+  width: 571;
+  height: 38px;
+  margin: 0px 0px 0px 224px;
+
+  background-image: url( ../images/Tweakers_Footer.bmp );
+  background-repeat: no-repeat;
+}
+
+#footer p
+{
+  display: none;
+}

@@ -1,0 +1,4 @@
+2005-01-12 - 13:43:17	Een foutmelding naar een bestand
+2005-01-12 - 13:43:17	Een foutmelding naar het scherm
+2005-01-12 - 13:43:17	Een foutmelding via mail
+2005-01-12 - 13:43:31	ART_Image: ./images/ogwp_lady.jpg not found

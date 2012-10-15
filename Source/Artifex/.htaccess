@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/Artifex/images.* [NC]
+RewriteCond %{REQUEST_URI} !^/Artifex/css.* [NC]
+RewriteCond %{REQUEST_URI} !^/Artifex/index\.php [NC]
+RewriteRule ^(.*)$ http://localhost/Artifex/index.php [L]

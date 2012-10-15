@@ -1,0 +1,217 @@
+/*
+  #C5BA9F - bruingrijs
+  #C9C6B7 - grijs
+  #800000 - donkerrood
+  #524D40 - zwart
+  #FFFFFF - wit
+  #FAF5EC - lichtgeel
+  #797165 - donkergrijs
+  
+  #A9A9A9 - knop-rand-grijs
+  #DDDDCB - knop-grijs
+*/
+
+#logo
+{
+  border: none;
+}
+
+#header
+{
+  border-bottom-width: 0px;
+  background-image: url(../images/Fok!Title.bmp);
+  height: 88px;
+  background-color: #C9C6B7;
+  border-style: ridge;
+  border-width: 0px 2px 0px 0px;
+}
+
+#content
+{
+  background-color: #FFFFFF;
+  border-style: ridge;
+  border-width: 0px 2px 0px 0px;
+  padding: 10px 10px 0px 0px;
+}
+
+#menu_main,
+#menu_weblog,
+#menu_layout,
+#menu_search
+{
+  background-color: #C9C6B7;
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  font-family: Tahoma;
+  width: 250px;
+  clear: left;
+  float: left;
+  text-align: center;
+  font-size: 10px;
+}
+
+#menu_weblog
+{
+  background-image: url(../images/fok!Menu.bmp);
+}
+
+#menu_title
+{
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  background-color: #524D40;
+  background-image: url(../images/fok!MenuTitle.bmp);
+  text-align: right;
+  font-size: 13px;
+  font-weight: bold;
+  color: #C5BA9F;
+  width: 250px;
+}
+
+#menu_item
+{
+  text-align: left;
+  font-size: 10px;
+  width: 250px;
+}
+
+#menu_item:active, #menu_item:link, #search_result
+{
+  text-decoration: none;
+  color: #800000;
+  padding: 0px 0px 0px 5px;
+}
+
+#menu_item:visited
+{
+  text-decoration: none;
+  color: #524D40;
+  padding: 0px 0px 0px 5px;
+}
+
+#menu_item:hover, #search_result:hover
+{
+  text-decoration: underline;
+  color: #524D40;
+}
+
+#weblog, #news
+{
+  width: 100%;
+  background-color: #FFFFFF;
+  border-width: 0px;
+  font-size: x-small;
+  text-align: justify;
+  padding: 0px 0px 0px 15x;
+}
+
+#news_title
+{
+  font-size: small;
+  font-weight: bolder;
+}
+
+#user_image
+{
+  margin-left: 10px;
+  float: right;
+}
+
+#user_image_link
+{
+  border-style: none;
+}
+
+#footer
+{
+  height: 30px;
+  border-style: ridge;
+  border-width: 0px 2px 0px 0px;
+}
+
+#footer_text
+{
+  font-size: xx-small;
+  font-weight: lighter;
+  color: #797165;
+  text-align: right;
+  margin: 2px 5px 2px 0px;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #C9C6B7;
+}
+
+#error
+{
+  color: #ff0000;
+  font-weight: bolder;
+  font-size: xx-small;
+}
+
+#topic, #topic_content
+{
+  width: 100%;
+  background-color: #FAF5EC;
+  text-align: center;
+  margin: 5px 5px 5px 3px;
+}
+
+#topic
+{
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #C9C6B7;
+}
+
+#search_result
+{
+  text-align: left;
+  width: 100%;
+}
+
+#topic_title
+{
+  font-size: small;
+  font-weight: bolder;
+  background-color: #FFFFFF;
+  color: #797165;
+  padding: 2px 0px 2px 5px;
+  width: 100%;
+  text-align: left;
+}
+
+#topic_subtitle
+{
+  font-size: xx-small;
+  /*font-weight: bold;*/
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #C9C6B7;
+  background-color: #ffffff;
+  padding: 2px 0px 2px 5px;
+  width: 100%;
+  color: #797165;
+  text-align: left;
+}
+
+#topic_text
+{
+  padding: 5px 5px 5px 5px;
+  font-size: x-small;
+  text-align: justify;
+  background-color: #FAF5EC;
+}
+
+#topic_image
+{
+  background-color: #daecf8;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 5px;
+}
+
+#search_input
+{
+  width: 230px;
+}
+

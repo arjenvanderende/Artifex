@@ -1,0 +1,16 @@
+#header_text
+{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#main_text,
+#extra_text
+{
+	font-size: 12px;
+}
+
+#footer_text
+{
+	font-size: 10px;
+}

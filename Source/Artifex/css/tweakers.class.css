@@ -1,0 +1,77 @@
+body
+{
+  margin: 0px 0px 0px 0px;
+
+  background-color: #C6C1B4;
+  font-family: Arial;
+  font-size: x-small;
+}
+
+ul,
+li
+{
+  text-align: left;
+}
+
+a
+{
+  color: #c00042;
+}
+
+a:visited,
+{
+  color: #000000;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #c00042;
+}
+
+.ART_Label
+{
+  width: 100px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ART_Input,
+.ART_TextArea
+{
+  width: 200px;
+
+  background-color: #f0f0f0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6f6f6f;
+}
+
+.ART_TextArea
+{
+  height: 100px;
+}
+
+.ART_Button
+{
+  background-color: #f0f0f0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6f6f6f;
+  
+  margin: 1px 2px 1px 2px;
+}
+
+.ART_Image
+{
+  margin: 20px 10px 10px 0px;
+  
+  float: left;
+  width: 67px;
+  height: 67px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+

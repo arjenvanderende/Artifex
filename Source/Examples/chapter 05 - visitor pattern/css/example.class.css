@@ -1,0 +1,28 @@
+body
+{
+  font-family: Verdana;
+  margin: 20px 20px 20px 20px;
+  background-color: #dddddd;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ART_Image
+{
+  border: 1px solid #000000;
+}
+
+.ART_Text
+{
+  font-size: x-small;
+}
+
+.ART_Group
+{
+  background: transparent url(../images/redline.jpg) no-repeat top left;
+  margin-top: 5px;
+  padding-top: 10px;
+  width: 600px;
+  border: 1px solid #000000;
+  background-color: #0074b9;
+}

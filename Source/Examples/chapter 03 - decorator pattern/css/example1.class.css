@@ -1,0 +1,27 @@
+body
+{
+  background-color: #dddddd;
+}
+
+.ART_Link:link
+{
+	color: #555555;
+	text-decoration: none;
+}
+
+.ART_Link:visited
+{
+	color: #339933;
+	text-decoration: line-through;
+}
+
+.ART_Link:active
+{
+	color: #993333;
+}
+
+.ART_Link:hover
+{
+	color: #333399;
+	text-decoration: underline;
+}

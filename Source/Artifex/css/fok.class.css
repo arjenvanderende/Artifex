@@ -1,0 +1,93 @@
+/*
+  #C5BA9F - bruingrijs
+  #C9C6B7 - grijs
+  #800000 - donkerrood
+  #524D40 - zwart
+  #FFFFFF - wit
+  #FAF5EC - lichtgeel
+  
+  #A9A9A9 - knop-rand-grijs
+  #DDDDCB - knop-grijs
+*/
+
+body
+{
+  font-family: Tahoma, Arial;
+  background-color: #C5BA9F;
+  text-align: left;
+  color: #524D40;
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.ART_Image
+{
+  border: 1px solid #000000;
+}
+
+.ART_Text,
+.ART_Paragraph
+{
+  font-size: 10px;
+}
+
+.ART_Group
+{
+  background-color: #FFFFFF;
+  width: 762px;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.ART_Label
+{
+  vertical-align: top;
+  text-align: left;
+  width: 100px;
+}
+
+.ART_EditField_Input,
+.ART_TextArea_Input
+{
+  font-family: Verdana;
+  font-size: xx-small;
+  width: 200px;
+}
+
+.ART_TextArea
+{
+  height: 100px;
+}
+
+.ART_Button
+{
+  color: #000000;
+  margin: 3px 3px 3px 3px;
+  background-color: #DDDDCB;
+  border-style: solid;
+  border-color: #A9A9A9;
+}
+
+.ART_Input,
+.ART_Textarea
+{
+  background-color: #FAF5EC;
+  border-color: #A9A9A9;
+  border-style: solid;
+  font-size: x-small;
+  text-align: left;
+  width: 200px;
+}
+
+.ART_Form
+{
+  padding: 0px 0px 0px 0px;
+}
+
+ul
+{
+  text-align: left;
+}
+

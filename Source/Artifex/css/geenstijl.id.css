@@ -1,0 +1,206 @@
+#content
+{
+	margin-top: 11px;
+	background-image: url( /Artifex/images/geenstijl-background.bmp );
+	width: 770px;
+	text-align: left;
+
+	padding-bottom: 20px;
+}
+
+#menu_main
+{
+	background-image: url( /Artifex/images/geenstijl-logo.jpg );
+	background-position: center 34px;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+
+	height: 219px;
+}
+
+#menu_title
+{
+	color: #ff0066;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma;
+	text-transform: lowercase;	
+
+	background-image: url( /Artifex/images/geenstijl-border2.bmp );
+	background-repeat: repeat-x;
+	background-position: center bottom;
+
+	margin: 0px 0px 0px 0px;
+	padding-left: 49px;
+
+	height: 20px;
+	width: 190px;
+}
+
+#menu_main #menu_title
+{
+	margin: 9px 10px 0px 19px;
+
+	font-size: 11px;
+	font-family: Trebuchet MS;
+
+	width: 90px;
+	background-image: none;
+}
+
+#menu_main #menu_item
+{
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;	
+	font-size: 11px;
+	font-weight: bolder;
+	color: #333333;
+	
+	vertical-align: middle;
+	margin-top: -4px;
+	height: 20px;
+	width: 80px;
+}
+
+#menu_main #menu_item:hover
+{
+	text-align: center;
+	background-color: #333333;
+	color: #ffffff;
+	height: 20px;
+}
+
+#menu_item
+{
+	text-decoration: none;
+	width: 190px;
+	font-size: 11px;
+	
+	color: #666666;
+}
+
+#menu_item:hover
+{
+	color: #ff0066;
+
+	width: 190px;
+}
+
+#menu_weblog
+{
+	width: 210px;
+	margin: 5px 5px 5px 5px;
+	padding-top: 5px;
+	
+	float: left;
+	clear: both;
+}
+
+#menu_weblog #menu_item
+{
+	display: block;
+}
+
+#menu_layout #menu_title,
+#menu_search #menu_title,
+#menu_layout #menu_item,
+#menu_search #menu_item
+{
+	display: block;
+	width: 130px;
+	
+	background-position: 0px;
+}
+
+#menu_layout,
+#menu_search
+{
+	width: 100px;
+	margin: 5px 5px 5px 5px;
+	padding-top: 5px;
+	
+	float: right;
+	clear: both;
+}
+
+#menu_search #submit_form
+{
+	text-align: center;
+	width: 130px;
+}
+
+#search_input
+{
+	width: 120px;
+}
+
+#topic
+{
+	height: 100%;
+	
+	text-align: justify;
+	margin-left: 227px; 
+	margin-right: 171px;
+}
+
+#topic_title
+{
+	color: #ff0066;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma;
+
+	background-image: url( /artifex/images/geenstijl-border.bmp );
+	background-repeat: repeat-x;
+	background-position: center bottom;
+
+	height: 30px;
+	width: 100%;
+
+	padding-top: 10px;
+}
+
+#topic_subtitle
+{
+	font-weight: bold;
+}
+
+#user_image_link,
+#search_result
+{
+	color: #ff0066;
+	text-decoration: none;
+}
+
+#user_image_link:hover,
+#search_result:hover
+{
+	color: #ff0066;
+	text-decoration: underline;
+}
+
+#footer
+{
+	background-color: #ffffff;
+	width: 770px;
+	height: 55px;
+	font-weight: bold;
+}
+
+#footer_text
+{
+	text-align: right;
+	border-color: #666666;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	
+	letter-spacing: 1px;
+	font-size: 10px;
+
+	color: #333333;
+	
+	padding-top: 10px;
+	
+	width: 750px;
+}
